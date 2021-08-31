@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  application-go:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-08-31T02:32:23.725565212Z"
+    description: A Helm chart for Golang App running on Kubernetes
+    digest: 81b7038828855bd261fa529034b88b7fabe8185ff3dc8c92c6b6106ea41d47cd
+    name: application-go
+    type: application
+    urls:
+    - https://github.com/rzkmak/helm/releases/download/application-go-0.1.2/application-go-0.1.2.tgz
+    version: 0.1.2
+generated: "2021-08-31T02:32:23.630345972Z"
