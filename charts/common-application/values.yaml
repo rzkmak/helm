@@ -9,6 +9,8 @@ container:
   livenessUrl: /
   readinessUrl: /
 
+serviceTag: "application-service"
+
 image:
   repository: nginx
   pullPolicy: IfNotPresent

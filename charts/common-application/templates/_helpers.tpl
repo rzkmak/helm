@@ -48,6 +48,7 @@ Selector labels
 {{- define "common-application.selectorLabels" -}}
 app.kubernetes.io/name: {{ include "common-application.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
+serviceTag: {{ .Values.tag }}
 {{- end }}
 
 {{/*
