@@ -14,6 +14,16 @@ entries:
   common-application:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-09-04T02:22:11.431112214Z"
+    description: A Helm chart for Personal Common Application running on Kubernetes
+    digest: 78edc11bb5c937fc70ab0716efeb2843779a0470df496408ed18eb00acf1042b
+    name: common-application
+    type: application
+    urls:
+    - https://github.com/rzkmak/helm/releases/download/common-application-0.1.1/common-application-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-09-01T00:29:31.954508981Z"
     description: A Helm chart for Personal Common Application running on Kubernetes
     digest: a009487d0240d2782ae8450099b0d436d1fa8398e2cbac9aa63ec023fd0922f7
